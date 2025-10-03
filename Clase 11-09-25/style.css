@@ -1,0 +1,17 @@
+:root{
+    --color-primario: #db7134;
+    --espaciado: 1rem;
+}
+h1{
+    color: var(--color-primario);
+    margin: var(--espaciado);
+}
+
+copy{
+    color: var(--color-primario);
+}
+
+.titulo-fijo{
+    font-size: 20px;
+    margin: 50px;
+} 

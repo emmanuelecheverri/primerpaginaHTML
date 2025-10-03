@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo Responsive</title>
+  <style>
+    /* Estilo base (para móviles - Mobile First) */
+    .contenedor {
+      display: flex;
+      flex-direction: column; /* Una columna */
+      gap: 10px;
+    }
+
+    .caja {
+      background: #3498db;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+    }
+
+    /* Para tablets (mínimo 600px de ancho) */
+    @media (min-width: 600px) {
+      .contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* 2 columnas */
+      }
+    }
+
+    /* Para PC (mínimo 1024px de ancho) */
+    @media (min-width: 1024px) {
+      .contenedor {
+        grid-template-columns: 1fr 1fr 1fr; /* 3 columnas */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Ejemplo Responsive</h1>
+  <div class="contenedor">
+    <div class="caja">Caja 1</div>
+    <div class="caja">Caja 2</div>
+    <div class="caja">Caja 3</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+    <script src="JS2/script.js"></script>
+    <link rel="stylesheet" href="CSS2/style.css">
+</head>
+<body>
+    
+    <h1 class = "titulo"> Ejercicio 2: TMB </h1>
+
+    <div class = "grid-container">
+        <h1 class = "titulo2"> Ingrese los siguientes datos </h1>
+        <div class = "item"> Peso: <input class = "inn" id = "peso" type="number" placeholder="Escriba su peso"></div>
+        <div class = "item"> Altura: <input class = "inn" id = "altura" type="number" placeholder="Escriba su altura"></div>
+        <div class = "item"> Edad: <input class = "inn" id = "edad" type="number" placeholder="Escriba su edad"></div>
+        <div class = "item"> Género: 
+            <select id="genero">
+                <option value="m">Hombre</option>
+                <option value="f">Mujer</option>
+            </select>
+        </div>
+    </div>
+
+    <div class = "boton"> <button class = "botonn" id="btnConvertir" onclick="convertir()">Convertir</button> </div>
+
+    <p id="resultado1" class="resultado"></p>
+    <p id="error1" class="error"></p>
+
+</body>
+</html>

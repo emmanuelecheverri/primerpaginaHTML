@@ -1,0 +1,83 @@
+
+body {
+font-family: Arial, sans-serif;
+background: #EDDEE0;
+}
+
+.titulo{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grid-container {
+    margin: 0px auto;
+    width: 700px;
+    background-color: #36445D;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.titulo2{
+    grid-column: 1/-1;
+    color: rgb(197, 197, 197);
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inn{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.item{
+    color: rgb(197, 197, 197);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+label {
+display: block;
+margin: 8px 0 4px;
+}
+
+input, select, button {
+width: 100%;
+padding: 8px;
+margin-bottom: 10px;
+} 
+
+button {
+    width: 50%;
+    background: #03627E;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #b0b4b5;
+}
+button:hover {
+background: #024054;
+}
+
+.boton{
+    grid-column: 1/-1;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.resultado {
+font-weight: bold;
+color: green;
+}
+
+.error {
+color: red;
+font-size: 0.9em;
+}
